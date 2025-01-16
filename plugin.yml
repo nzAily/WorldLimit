@@ -1,0 +1,16 @@
+name: WorldLimit
+main: Sedircraft\WorldLimit\Main
+version: 1.0.0
+api: [5.0.0]
+author: Sedircraft, EdwardMaulidul
+website: https://github.com/nzAily
+description: A plugin to limit world explorers with minimum and maximum coordinates, and supports bypass.
+commands:
+  limitby:
+    description: Add or remove players from the bypass list.
+    usage: /limitby <player>
+    permission: worldlimit.bypass
+permissions:
+  worldlimit.bypass:
+    description: Allows use of the /limitby command to set a bypass.
+    default: op

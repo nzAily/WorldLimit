@@ -1,0 +1,5 @@
+MinCoord: -1000 // Minimum coordinate
+MaxCoord: 1000 // Maximum coordinate
+LimitedWorlds:
+  - World1
+  - World2
